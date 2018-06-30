@@ -1,0 +1,27 @@
+.img_scroll {
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+.customer_reviews {
+    width: 60%;
+    height: 200px;
+    margin-top: 50px; 
+    margin-right: 20px;  
+}
+
+.summaries {
+    margin-top: 50px; 
+    height: 200px;
+} 
+
+.recommended {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
