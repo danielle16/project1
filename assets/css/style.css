@@ -1,0 +1,26 @@
+body {
+    background-image: url("../images/keyboard_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search_bar {
+    position: relative;
+    top: 300px;
+}
+
+input[type=text] {
+    width: 400px;
+    height: 60px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    opacity: 0.15;
+
+}
+
+input[type=text]:focus {
+    width: 60%;
+    height: 60px;
+}
+
+
