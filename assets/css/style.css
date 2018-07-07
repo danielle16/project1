@@ -1,0 +1,57 @@
+/* Search bar CSS */
+body {
+    background-image: url("../images/keyboard_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.search_bar {
+    position: relative;
+    top: 300px;
+}
+
+input[type=text] {
+    width: 400px;
+    height: 60px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    opacity: 0.15;
+
+}
+
+input[type=text]:focus {
+    width: 60%;
+    height: 60px;
+}
+
+/* Dashboard CSS */
+
+/* .img_scroll {
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+.customer_reviews {
+    width: 60%;
+    height: 200px;
+    margin-top: 50px; 
+    margin-right: 20px;  
+}
+
+.summaries {
+    margin-top: 50px; 
+    height: 200px;
+} 
+
+.recommended {
+    margin-top: 50px;
+    margin-bottom: 50px;
+} */
+
